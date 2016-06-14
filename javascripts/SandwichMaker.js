@@ -2,25 +2,17 @@ console.log("<<< SandwichMaker.js loaded >>>");
 
 //Kick off our IIFE object here... START:
 var SandwichMaker = (function() {
-  // Private variable to store the price
-  var totalPrice = 0;
+var totalPrice = 0;   // Private variable to store the sandwich PRICE
+
   // Return the public interface that other code can interact with
   return {
     addTopping: function(toppingPrice) {
       totalPrice += toppingPrice;
-    },
-    getTotalPrice: function(){
-    	return totalPrice;
+			console.log(" asdfasdf asdf runningMeat = ",totalPrice );
+      return totalPrice;
     }
   };
 })();
-
-
-
-
-
-
-
 
 
 
