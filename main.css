@@ -1,0 +1,10 @@
+* {
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+fieldset {
+  background-color: khaki;
+  padding-left: 35px;
+}
