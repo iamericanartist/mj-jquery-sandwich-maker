@@ -5,15 +5,17 @@ var SandwichMaker = (function(maker) {
   var condimentPrices= {"Ketchup":        1.00, 
                         "Mayo":           1.75, 
                         "Mustard":        1.75, 
-                        "Peanut Butter":  3.50};
+                        "PB":  3.50};
 
   // Augment the original object with another method
-  maker.addCondimentPrices = function(condiment) {
-    var condiment =  condimentPrices[condiment];
-    console.log("runningCondiment = ",condiment );
-    SandwichMaker.addTopping(condiment);
-
+  maker.addCondimentPrices = function(thisCondiment) {
+    return condimentPrices[thisCondiment];
   };
+
+  maker.getCondimentPrices = function () {
+    return condimentPrices
+  };
+
   // Return the new, augmented object with the new method on it
   return maker;
 })(SandwichMaker);

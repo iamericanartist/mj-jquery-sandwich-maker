@@ -8,12 +8,14 @@ var SandwichMaker = (function(maker) {
                       "Sprouts":   4.50};
 
   // Augment the original object with another method
-  maker.addVeggiePrices = function(veggie) {
-    var veggie =  veggiePrices[veggie];
-    console.log("runningVeggie = ",veggie );
-    SandwichMaker.addTopping(veggie);
-
+  maker.addVeggiePrices = function(thisVeggie) {
+    return veggiePrices[thisVeggie];
   };
+
+  maker.getVeggiePrices = function () {
+    return veggiePrices
+  };
+
   // Return the new, augmented object with the new method on it
   return maker;
 })(SandwichMaker);
