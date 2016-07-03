@@ -11,51 +11,56 @@
 
 	<fieldset>
 		<legend>Choose Your Options</legend>
-		<div> <h3>Choose your Bread:</h3>
-			<button type="button" id="chooseRhye"> Rhye </button>
-			<button type="button" id="chooseWheat"> Wheat </button>
-			<button type="button" id="chooseWhite"> White </button>
-			<button type="button" id="chooseStale"> Stale </button>
+
+		<h2>Choose your Bread:</h2>
+		<div class="choosers" id="breads"> 
+			<button type="button" id="btn--Rhye"> Rhye </button>
+			<button type="button" id="btn--Wheat"> Wheat </button>
+			<button type="button" id="btn--White"> White </button>
+			<button type="button" id="btn--Stale"> Stale </button>
 		</div>
 
-		<div> <h3>Choose your Meat:</h3>
+		<h2>Choose your Meat:</h2>
+		<div class="choosers" id="meats">
 			<button type="button" id="chooseTurkey"> Turkey </button>
 			<button type="button" id="chooseHam"> Ham </button>
 			<button type="button" id="chooseSpam"> Spam </button>
 			<button type="button" id="chooseBologna"> Bologna </button>
 		</div>
 
-		<div> <h3>Choose your Cheese:</h3>
+		<h2>Choose your Cheese:</h2>
+		<div class="choosers" id="cheeses">
 			<button type="button" id="chooseAmerican"> American </button>
 			<button type="button" id="chooseColby"> Colby </button>
 			<button type="button" id="chooseJack"> Jack </button>
 			<button type="button" id="chooseCheddar"> Cheddar </button>
 		</div>
 
-		<div> <h3>Choose your Condiments:</h3>
+		<h2>Choose your Condiments:</h2>
+		<div class="choosers" id="condiments">
 			<button type="button" id="chooseKetchup"> Ketchup </button>
 			<button type="button" id="chooseMayo"> Mayo </button>
 			<button type="button" id="chooseMustard"> Mustard </button>
 			<button type="button" id="choosePB"> Peanut Butter </button>
 		</div>
 
-		<div> <h3>Choose your Veggies:</h3>
+		<h2>Choose your Veggies:</h2>
+		<div class="choosers" id="veggies">
 			<button type="button" id="chooseLettuce"> Lettuce </button>
 			<button type="button" id="chooseTomato"> Tomato </button>
 			<button type="button" id="choosePickle"> Pickle </button>
 			<button type="button" id="chooseSprouts"> Sprouts </button>			
 		</div>
+
 	</fieldset>
 
-
 	<div id="finalSandwichEl">
-		
 	</div>
 
 	<hr>
 	<div id="instructions">
 		<h2>Instructions</h2>
-		<p>Create a sandwich order form that allows the user to select all the ingredients for a custom deli sandwich. Create a `Sandwich` module, then create the following as individual modules, using IIFE syntax, to augment `Sandwich`: </p> 
+<!-- 		<p>Create a sandwich order form that allows the user to select all the ingredients for a custom deli sandwich. Create a `Sandwich` module, then create the following as individual modules, using IIFE syntax, to augment `Sandwich`: </p> 
 
 		<ol>
 			<li>bread</li>
@@ -75,7 +80,7 @@
 			<li> an empty DOM element into which the final sandwich order and its cost will be inserted </lo>
 		</ul>
 		
-		<p> The ingredient choices should be stored as JS objects that contain the ingredients as keys and their cost as the value. `{"turkey": 0.90, "bacon": 1.50}` </p>
+		<p> The ingredient choices should be stored as JS objects that contain the ingredients as keys and their cost as the value. `{"turkey": 0.90, "bacon": 1.50}` </p> -->
 
 		<p> Make sure the ingredient objects cannot be accessed by the other modules except through an accessor (getter) method. </p>
 		
@@ -87,12 +92,12 @@
 	</div>
 
 	<script src="javascripts/SandwichMaker.js"></script>
-<!-- 	<script src="javascripts/bread.js"></script>
-	<script src="javascripts/cheese.js"></script>
-	<script src="javascripts/condiments.js"></script> -->
+	<script src="javascripts/bread.js"></script>
 	<script src="javascripts/meat.js"></script>
-<!-- 	<script src="javascripts/veggies.js"></script>
+	<script src="javascripts/cheese.js"></script>
+	<script src="javascripts/condiments.js"></script>
+	<script src="javascripts/veggies.js"></script>
 	<script src="javascripts/DOMhandler.js"></script>
 
- --></body>
+</body>
 </html>
