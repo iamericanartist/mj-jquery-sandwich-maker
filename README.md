@@ -1,8 +1,8 @@
 # Sandwich Maker
 ##Single Page App / JavaScript / IIFE Sandwich Maker
 
-![Sandwich Maker](iifeSandwich.jpg?raw=true "Sandwich Maker Screenshot")
-[Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/YWQGGk)
+![Sandwich Maker](iifeJquerySandwich.jpg?raw=true "Sandwich Maker Screenshot")
+[Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/AXrrxP)
 
 ## Instructions
 
