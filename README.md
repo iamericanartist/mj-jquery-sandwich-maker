@@ -1,8 +1,9 @@
-# Sandwich Maker
-##Single Page App / JavaScript / IIFE Sandwich Maker
+# JQuery $Sandwich Maker
+##Modern JavaScript / JQuery-ified / Sandwich Maker
 
 ![Sandwich Maker](iifeJquerySandwich.jpg?raw=true "Sandwich Maker Screenshot")
 [Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/AXrrxP)
+(Not a required exercise, more for JQuery practice)
 
 ## Instructions
 
