@@ -7,7 +7,7 @@ var SandwichMaker = (function() {
   return {
     addTopping: function(toppingPrice) {
       totalPrice += toppingPrice;
-			sandwichEl.innerHTML = totalPrice; 
+			$sandwichEl.append(totalPrice); 
       console.log("Currently $",totalPrice);
     }
   };
