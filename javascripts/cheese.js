@@ -8,12 +8,14 @@ var SandwichMaker = (function(maker) {
                     "Cheddar":    1.50};
 
   // Augment the original object with another method
-  maker.addCheesePrices = function(cheese) {
-    var cheese =  cheesePrices[cheese];
-    console.log("runningCheese = ",cheese );
-    SandwichMaker.addTopping(cheese);
-
+  maker.addCheesePrices = function(thisCheese) {
+    return cheesePrices[thisCheese];
   };
+
+  maker.getCheesePrices = function () {
+    return cheesePrices
+  };
+
   // Return the new, augmented object with the new method on it
   return maker;
 })(SandwichMaker);

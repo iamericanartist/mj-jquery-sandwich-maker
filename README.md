@@ -1,6 +1,9 @@
-### spa-iife-sandwich-maker
-
 # Sandwich Maker
+##Single Page App / JavaScript / IIFE Sandwich Maker
+
+![Sandwich Maker](iifeSandwich.jpg?raw=true "Sandwich Maker Screenshot")
+[Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/YWQGGk)
+
 ## Instructions
 
 Create a sandwich order form that allows the user to select all the ingredients for a custom deli sandwich. Create a `Sandwich` module, then create the following as individual modules, using IIFE syntax, to augment `Sandwich`:  

@@ -9,12 +9,10 @@ var SandwichMaker = (function(maker) {
 
   // Augment the original object with another method
   maker.addBreadPrices = function(thisBread) {
-    // console.log("Who friggin knows = ", thisBread); //returns "selectedTopping" (from line 17 DOMhandler???)
     return breadPrices[thisBread];
   };
 
   maker.getBreadPrices = function () {
-    // console.log("breadPrices", breadPrices);
     return breadPrices
   };
 

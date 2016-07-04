@@ -8,15 +8,16 @@ var SandwichMaker = (function(maker) {
                     "Bologna":  0.50};
 
   // Augment the original object with another method
-  maker.addMeatPrices = function(meat) {
-  	var meat =  meatPrices[meat];
-  	console.log("runningMeat = ",meat );
-    SandwichMaker.addTopping(meat);
-
+  maker.addMeatPrices = function(thisMeat) {
+    return meatPrices[thisMeat];
   };
+
+  maker.getMeatPrices = function () {
+    return meatPrices
+  };
+
   // Return the new, augmented object with the new method on it
   return maker;
 })(SandwichMaker);
-
 
 console.log("<<<3 IIFE SandwichMaker is third >>>");
